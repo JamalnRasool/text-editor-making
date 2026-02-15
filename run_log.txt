@@ -1,0 +1,104 @@
+DEBUG StatusConsoleListener Apache Log4j Core 2.20 initializing configuration XmlConfiguration[location=C:\Users\jamal\OneDrive\Desktop\anti shit\software testing assingmnet 1\Text-Editor\bin\log4j2.xml]
+DEBUG StatusConsoleListener PluginManager 'Core' found 130 plugins
+DEBUG StatusConsoleListener PluginManager 'Level' found 0 plugins
+DEBUG StatusConsoleListener PluginManager 'Lookup' found 16 plugins
+DEBUG StatusConsoleListener Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+TRACE StatusConsoleListener TypeConverterRegistry initializing.
+DEBUG StatusConsoleListener PluginManager 'TypeConverter' found 26 plugins
+DEBUG StatusConsoleListener PatternLayout$Builder(pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(C:\Users\jamal\OneDrive\Desktop\anti shit\software testing assingmnet 1\Text-Editor\bin\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+DEBUG StatusConsoleListener PluginManager 'Converter' found 45 plugins
+DEBUG StatusConsoleListener Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.FileAppender].
+DEBUG StatusConsoleListener FileAppender$Builder(fileName="logs/editorLogs.log", append="null", locking="null", advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="File", Configuration(C:\Users\jamal\OneDrive\Desktop\anti shit\software testing assingmnet 1\Text-Editor\bin\log4j2.xml), Filter=null, ={})
+DEBUG StatusConsoleListener Starting FileManager logs/editorLogs.log
+DEBUG StatusConsoleListener Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+DEBUG StatusConsoleListener createAppenders(={File})
+DEBUG StatusConsoleListener Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+DEBUG StatusConsoleListener createAppenderRef(ref="File", level="null", Filter=null)
+DEBUG StatusConsoleListener Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+DEBUG StatusConsoleListener LoggerConfig$RootLogger$Builder(additivity="null", level="DEBUG", levelAndRefs="null", includeLocation="null", ={File}, ={}, Configuration(C:\Users\jamal\OneDrive\Desktop\anti shit\software testing assingmnet 1\Text-Editor\bin\log4j2.xml), Filter=null)
+DEBUG StatusConsoleListener Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+DEBUG StatusConsoleListener createLoggers(={root})
+DEBUG StatusConsoleListener Configuration XmlConfiguration[location=C:\Users\jamal\OneDrive\Desktop\anti shit\software testing assingmnet 1\Text-Editor\bin\log4j2.xml] initialized
+DEBUG StatusConsoleListener Starting configuration XmlConfiguration[location=C:\Users\jamal\OneDrive\Desktop\anti shit\software testing assingmnet 1\Text-Editor\bin\log4j2.xml]
+DEBUG StatusConsoleListener Started configuration XmlConfiguration[location=C:\Users\jamal\OneDrive\Desktop\anti shit\software testing assingmnet 1\Text-Editor\bin\log4j2.xml] OK.
+TRACE StatusConsoleListener Stopping org.apache.logging.log4j.core.config.DefaultConfiguration@4e1d422d...
+TRACE StatusConsoleListener DefaultConfiguration notified 1 ReliabilityStrategies that config will be stopped.
+TRACE StatusConsoleListener DefaultConfiguration stopping root LoggerConfig.
+TRACE StatusConsoleListener DefaultConfiguration notifying ReliabilityStrategies that appenders will be stopped.
+TRACE StatusConsoleListener DefaultConfiguration stopping remaining Appenders.
+DEBUG StatusConsoleListener Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+DEBUG StatusConsoleListener OutputStream closed
+DEBUG StatusConsoleListener Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+DEBUG StatusConsoleListener Appender DefaultConsole-1 stopped with status true
+TRACE StatusConsoleListener DefaultConfiguration stopped 1 remaining Appenders.
+TRACE StatusConsoleListener DefaultConfiguration cleaning Appenders from 1 LoggerConfigs.
+DEBUG StatusConsoleListener Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@4e1d422d OK
+TRACE StatusConsoleListener Reregistering MBeans after reconfigure. Selector=org.apache.logging.log4j.core.selector.ClassLoaderContextSelector@120d6fe6
+TRACE StatusConsoleListener Reregistering context (1/1): '73d16e93' org.apache.logging.log4j.core.LoggerContext@4ba2ca36
+TRACE StatusConsoleListener Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93'
+TRACE StatusConsoleListener Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=StatusLogger'
+TRACE StatusConsoleListener Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=ContextSelector'
+TRACE StatusConsoleListener Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=Loggers,name=*'
+TRACE StatusConsoleListener Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=Appenders,name=*'
+TRACE StatusConsoleListener Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=AsyncAppenders,name=*'
+TRACE StatusConsoleListener Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=AsyncLoggerRingBuffer'
+TRACE StatusConsoleListener Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=Loggers,name=*,subtype=RingBuffer'
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=73d16e93
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=73d16e93,component=StatusLogger
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=73d16e93,component=ContextSelector
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=73d16e93,component=Loggers,name=
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=73d16e93,component=Appenders,name=File
+TRACE StatusConsoleListener Using default SystemClock for timestamps.
+DEBUG StatusConsoleListener org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+TRACE StatusConsoleListener Using DummyNanoClock for nanosecond timestamps.
+DEBUG StatusConsoleListener Reconfiguration complete for context[name=73d16e93] at URI C:\Users\jamal\OneDrive\Desktop\anti shit\software testing assingmnet 1\Text-Editor\bin\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@4ba2ca36) with optional ClassLoader: null
+DEBUG StatusConsoleListener Shutdown hook enabled. Registering a new one.
+DEBUG StatusConsoleListener LoggerContext[name=73d16e93, org.apache.logging.log4j.core.LoggerContext@4ba2ca36] started OK.
+java.sql.SQLNonTransientConnectionException: Socket fail to connect to address=(host=localhost)(port=3306)(type=primary). Connection refused: connect
+	at org.mariadb.jdbc.client.impl.ConnectionHelper.connectSocket(ConnectionHelper.java:122)
+	at org.mariadb.jdbc.client.impl.StandardClient.<init>(StandardClient.java:129)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:68)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:92)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:26)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at dal.DatabaseConnection.<init>(DatabaseConnection.java:32)
+	at dal.DatabaseConnection.getInstance(DatabaseConnection.java:41)
+	at dal.EditorDBDAO.<init>(EditorDBDAO.java:25)
+	at dal.MariaDBDAOFactory.createEditorDAO(MariaDBDAOFactory.java:7)
+	at Driver.main(Driver.java:17)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.mariadb.jdbc.client.impl.ConnectionHelper.connectSocket(ConnectionHelper.java:116)
+	... 11 more
+DEBUG StatusConsoleListener Stopping LoggerContext[name=73d16e93, org.apache.logging.log4j.core.LoggerContext@4ba2ca36]
+DEBUG StatusConsoleListener Stopping LoggerContext[name=73d16e93, org.apache.logging.log4j.core.LoggerContext@4ba2ca36]...
+TRACE StatusConsoleListener Unregistering 1 MBeans: [org.apache.logging.log4j2:type=73d16e93]
+TRACE StatusConsoleListener Unregistering 1 MBeans: [org.apache.logging.log4j2:type=73d16e93,component=StatusLogger]
+TRACE StatusConsoleListener Unregistering 1 MBeans: [org.apache.logging.log4j2:type=73d16e93,component=ContextSelector]
+TRACE StatusConsoleListener Unregistering 1 MBeans: [org.apache.logging.log4j2:type=73d16e93,component=Loggers,name=]
+TRACE StatusConsoleListener Unregistering 1 MBeans: [org.apache.logging.log4j2:type=73d16e93,component=Appenders,name=File]
+TRACE StatusConsoleListener Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=AsyncAppenders,name=*'
+TRACE StatusConsoleListener Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=AsyncLoggerRingBuffer'
+TRACE StatusConsoleListener Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=73d16e93,component=Loggers,name=*,subtype=RingBuffer'
+TRACE StatusConsoleListener Stopping XmlConfiguration[location=C:\Users\jamal\OneDrive\Desktop\anti shit\software testing assingmnet 1\Text-Editor\bin\log4j2.xml]...
+TRACE StatusConsoleListener XmlConfiguration notified 2 ReliabilityStrategies that config will be stopped.
+TRACE StatusConsoleListener XmlConfiguration stopping 1 LoggerConfigs.
+TRACE StatusConsoleListener XmlConfiguration stopping root LoggerConfig.
+TRACE StatusConsoleListener XmlConfiguration notifying ReliabilityStrategies that appenders will be stopped.
+TRACE StatusConsoleListener XmlConfiguration stopping remaining Appenders.
+DEBUG StatusConsoleListener Shutting down FileManager logs/editorLogs.log
+DEBUG StatusConsoleListener OutputStream closed
+DEBUG StatusConsoleListener Shut down FileManager logs/editorLogs.log, all resources released: true
+DEBUG StatusConsoleListener Appender File stopped with status true
+TRACE StatusConsoleListener XmlConfiguration stopped 1 remaining Appenders.
+TRACE StatusConsoleListener XmlConfiguration cleaning Appenders from 2 LoggerConfigs.
+DEBUG StatusConsoleListener Stopped XmlConfiguration[location=C:\Users\jamal\OneDrive\Desktop\anti shit\software testing assingmnet 1\Text-Editor\bin\log4j2.xml] OK
+DEBUG StatusConsoleListener Stopped LoggerContext[name=73d16e93, org.apache.logging.log4j.core.LoggerContext@4ba2ca36] with status true
